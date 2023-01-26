@@ -1,0 +1,33 @@
+name: Publish to npm
+
+on:
+  workflow_dispatch:
+    inputs:
+      package:
+        description: 'Which package to publish?'
+        required: true
+        type: choice
+        options:
+          - itwinui-react
+
+jobs:
+  publish:
+    name: Build and publish output to npm
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Use Node 16.X
+        uses: actions/setup-node@v2
+        with:
+          node-version: 16.x
+          registry-url: https://registry.npmjs.org/
+
+      - run: yarn install
+      - run: yarn build --filter=itwinui-react
+
+      - run: npm publish --access public --tag dev
+        working-directory: './packages/iTwinUI-react'
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPMJS_PUBLISH_ITWIN }}
