@@ -6,7 +6,6 @@ import React from 'react';
 import cx from 'classnames';
 import { useTheme, CommonProps, useMergedRefs, useOverflow } from '../utils';
 import SvgChevronRight from '@itwin/itwinui-icons-react/cjs/icons/ChevronRight';
-import '@itwin/itwinui-css/css/breadcrumbs.css';
 
 export type BreadcrumbsProps = {
   /**

@@ -8,7 +8,6 @@ import SvgCheckmark from '@itwin/itwinui-icons-react/cjs/icons/Checkmark';
 import SvgMore from '@itwin/itwinui-icons-react/cjs/icons/More';
 import SvgNew from '@itwin/itwinui-icons-react/cjs/icons/New';
 import { useTheme } from '../utils';
-import '@itwin/itwinui-css/css/tile.css';
 import { DropdownMenu } from '../DropdownMenu';
 import { IconButton } from '../Buttons';
 

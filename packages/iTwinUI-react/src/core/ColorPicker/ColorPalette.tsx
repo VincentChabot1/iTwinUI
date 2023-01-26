@@ -15,7 +15,6 @@ import {
 import { getColorValue } from './ColorPicker';
 import { ColorSwatch } from './ColorSwatch';
 import { useColorPickerContext } from './ColorPickerContext';
-import '@itwin/itwinui-css/css/color-picker.css';
 
 export type ColorPaletteProps = {
   /**

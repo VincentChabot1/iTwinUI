@@ -4,7 +4,6 @@
  *--------------------------------------------------------------------------------------------*/
 import React from 'react';
 import cx from 'classnames';
-import '@itwin/itwinui-css/css/table.css';
 import { useTheme, CommonProps } from '../../utils';
 import { Button } from '../../Buttons';
 

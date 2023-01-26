@@ -5,7 +5,6 @@
 import React from 'react';
 import cx from 'classnames';
 import { useTheme, CommonProps, Popover, PopoverProps } from '../utils';
-import '@itwin/itwinui-css/css/tooltip.css';
 
 export type TooltipProps = {
   /**

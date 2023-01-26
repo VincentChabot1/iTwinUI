@@ -12,7 +12,6 @@ import {
   StatusIconMap,
   WithCSSTransition,
 } from '../utils';
-import '@itwin/itwinui-css/css/expandable-block.css';
 
 export type ExpandableBlockProps = {
   /**

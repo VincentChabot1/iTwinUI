@@ -6,7 +6,6 @@ import SvgCloseSmall from '@itwin/itwinui-icons-react/cjs/icons/CloseSmall';
 import cx from 'classnames';
 import React from 'react';
 import { CommonProps, useTheme, StatusIconMap } from '../utils';
-import '@itwin/itwinui-css/css/alert.css';
 import { IconButton } from '../Buttons/IconButton';
 
 export type AlertProps = {

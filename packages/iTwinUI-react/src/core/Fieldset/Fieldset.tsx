@@ -6,7 +6,6 @@ import React from 'react';
 import { useTheme } from '../utils';
 
 import cx from 'classnames';
-import '@itwin/itwinui-css/css/fieldset.css';
 
 export type FieldsetProps = {
   /**

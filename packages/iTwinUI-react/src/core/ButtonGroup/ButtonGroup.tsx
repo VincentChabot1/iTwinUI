@@ -5,7 +5,6 @@
 import React from 'react';
 import cx from 'classnames';
 import { useTheme, useOverflow, useMergedRefs } from '../utils';
-import '@itwin/itwinui-css/css/button.css';
 
 export type ButtonGroupProps = {
   /**

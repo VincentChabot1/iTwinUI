@@ -10,7 +10,6 @@ import {
   useMergedRefs,
   getFocusableElements,
 } from '../utils';
-import '@itwin/itwinui-css/css/menu.css';
 
 export type MenuProps = {
   /**

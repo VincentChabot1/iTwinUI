@@ -10,7 +10,6 @@ import {
   PolymorphicComponentProps,
   PolymorphicForwardRefComponent,
 } from '../../utils';
-import '@itwin/itwinui-css/css/button.css';
 
 type ButtonOwnProps = {
   /**

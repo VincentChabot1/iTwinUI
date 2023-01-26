@@ -9,7 +9,6 @@ import SvgChevronRightDouble from '@itwin/itwinui-icons-react/cjs/icons/ChevronR
 import cx from 'classnames';
 import React from 'react';
 import { useTheme } from '../utils';
-import '@itwin/itwinui-css/css/date-picker.css';
 import { IconButton } from '../Buttons/IconButton';
 import { TimePicker, TimePickerProps } from '../TimePicker';
 

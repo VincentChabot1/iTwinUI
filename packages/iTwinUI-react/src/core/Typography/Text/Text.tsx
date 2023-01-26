@@ -9,7 +9,6 @@ import {
   PolymorphicComponentProps,
   PolymorphicForwardRefComponent,
 } from '../../utils';
-import '@itwin/itwinui-css/css/text.css';
 
 type TextOwnProps = {
   /**

@@ -5,7 +5,6 @@
 import cx from 'classnames';
 import React from 'react';
 import { useTheme } from '../../utils';
-import '@itwin/itwinui-css/css/text.css';
 
 export type LeadingProps = {
   /**

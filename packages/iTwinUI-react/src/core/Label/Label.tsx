@@ -5,7 +5,6 @@
 import React from 'react';
 import cx from 'classnames';
 import { useTheme } from '../utils';
-import '@itwin/itwinui-css/css/inputs.css';
 
 type LabelOwnProps<T extends React.ElementType = 'label'> = {
   /**

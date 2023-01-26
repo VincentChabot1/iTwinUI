@@ -7,7 +7,6 @@ import SvgFilter from '@itwin/itwinui-icons-react/cjs/icons/Filter';
 import React from 'react';
 import cx from 'classnames';
 import { HeaderGroup } from 'react-table';
-import '@itwin/itwinui-css/css/table.css';
 import { useTheme, Popover, StylingProps } from '../../utils';
 import { IconButton } from '../../Buttons';
 

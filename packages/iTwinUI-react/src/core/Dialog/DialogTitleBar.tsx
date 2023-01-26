@@ -7,7 +7,6 @@ import cx from 'classnames';
 import SvgClose from '@itwin/itwinui-icons-react/cjs/icons/Close';
 import { useTheme } from '../utils';
 import { IconButton } from '../Buttons';
-import '@itwin/itwinui-css/css/dialog.css';
 import { DialogContextProps, useDialogContext } from './DialogContext';
 import { DialogTitleBarTitle } from './DialogTitleBarTitle';
 import { useDialogDragContext } from './DialogDragContext';

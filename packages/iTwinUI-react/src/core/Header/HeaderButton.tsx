@@ -15,7 +15,6 @@ import {
 } from '../Buttons';
 
 import { PolymorphicForwardRefComponent, useTheme } from '../utils';
-import '@itwin/itwinui-css/css/header.css';
 
 export type HeaderButtonProps = {
   /**

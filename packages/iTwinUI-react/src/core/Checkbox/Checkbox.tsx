@@ -6,7 +6,6 @@ import cx from 'classnames';
 import React from 'react';
 import { ProgressRadial } from '../ProgressIndicators';
 import { useMergedRefs, useTheme } from '../utils';
-import '@itwin/itwinui-css/css/inputs.css';
 
 export type CheckboxProps = {
   /**

@@ -4,7 +4,6 @@
  *--------------------------------------------------------------------------------------------*/
 import React from 'react';
 import cx from 'classnames';
-import '@itwin/itwinui-css/css/color-picker.css';
 import { useTheme, getWindow, ColorValue, ColorType } from '../utils';
 import { getColorValue } from './ColorPicker';
 

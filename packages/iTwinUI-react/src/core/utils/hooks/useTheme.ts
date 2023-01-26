@@ -3,7 +3,7 @@
  * See LICENSE.md in the project root for license terms and full copyright notice.
  *--------------------------------------------------------------------------------------------*/
 import React from 'react';
-import '@itwin/itwinui-css/css/global.css';
+import '@itwin/itwinui-css/css/all.css';
 import { getDocument, getWindow } from '../functions/dom';
 import { useMediaQuery } from './useMediaQuery';
 

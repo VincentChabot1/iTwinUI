@@ -5,7 +5,6 @@
 import cx from 'classnames';
 import React from 'react';
 import { useMergedRefs, useTheme } from '../utils';
-import '@itwin/itwinui-css/css/radio-tile.css';
 
 export type RadioTileProps = {
   /**

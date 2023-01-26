@@ -15,7 +15,6 @@ import {
   useTheme,
 } from '../utils';
 import { Slider } from '../Slider';
-import '@itwin/itwinui-css/css/color-picker.css';
 import { useColorPickerContext } from './ColorPickerContext';
 
 const getVerticalPercentageOfRectangle = (rect: DOMRect, pointer: number) => {

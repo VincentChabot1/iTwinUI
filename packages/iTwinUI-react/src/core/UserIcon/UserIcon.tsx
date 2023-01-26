@@ -5,7 +5,6 @@
 import cx from 'classnames';
 import React from 'react';
 import { CommonProps, useTheme } from '../utils';
-import '@itwin/itwinui-css/css/user-icon.css';
 
 export type UserIconStatus = 'online' | 'busy' | 'away' | 'offline';
 

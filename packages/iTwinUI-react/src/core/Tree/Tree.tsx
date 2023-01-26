@@ -11,7 +11,6 @@ import {
   mergeRefs,
   StylingProps,
 } from '../utils';
-import '@itwin/itwinui-css/css/tree.css';
 import cx from 'classnames';
 import { TreeContext } from './TreeContext';
 

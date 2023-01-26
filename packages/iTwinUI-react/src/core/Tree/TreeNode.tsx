@@ -9,7 +9,6 @@ import {
   getWindow,
   useTheme,
 } from '../utils';
-import '@itwin/itwinui-css/css/tree.css';
 import cx from 'classnames';
 import { TreeNodeExpander } from './TreeNodeExpander';
 import { useTreeContext } from './TreeContext';

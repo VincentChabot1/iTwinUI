@@ -5,7 +5,6 @@
 import React from 'react';
 import cx from 'classnames';
 import { CommonProps, useTheme, VisuallyHidden } from '../utils';
-import '@itwin/itwinui-css/css/menu.css';
 
 export type MenuItemSkeletonProps = {
   /**

@@ -5,7 +5,6 @@
 import cx from 'classnames';
 import React from 'react';
 import { useTheme, CommonProps } from '../../utils';
-import '@itwin/itwinui-css/css/keyboard.css';
 
 /**
  * Some predefined strings for common keyboard keys.

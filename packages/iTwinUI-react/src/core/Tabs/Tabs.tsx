@@ -11,7 +11,6 @@ import {
   getWindow,
   useContainerWidth,
 } from '../utils';
-import '@itwin/itwinui-css/css/tabs.css';
 import { Tab } from './Tab';
 
 export type TabsProps = {

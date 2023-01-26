@@ -12,7 +12,6 @@ import SvgCaretDownSmall from '@itwin/itwinui-icons-react/cjs/icons/CaretDownSma
 import SvgCaretUpSmall from '@itwin/itwinui-icons-react/cjs/icons/CaretUpSmall';
 
 import { PolymorphicForwardRefComponent, useTheme } from '../../utils';
-import '@itwin/itwinui-css/css/button.css';
 
 export type SplitButtonProps = ButtonProps & {
   /**

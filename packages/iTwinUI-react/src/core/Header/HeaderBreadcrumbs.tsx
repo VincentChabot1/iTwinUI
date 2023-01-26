@@ -7,7 +7,6 @@ import SvgChevronRight from '@itwin/itwinui-icons-react/cjs/icons/ChevronRight';
 import React from 'react';
 
 import { useTheme } from '../utils';
-import '@itwin/itwinui-css/css/header.css';
 
 export type HeaderBreadcrumbsProps = {
   /**

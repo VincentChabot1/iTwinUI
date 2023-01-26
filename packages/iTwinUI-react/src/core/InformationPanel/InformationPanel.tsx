@@ -5,7 +5,6 @@
 import cx from 'classnames';
 import React from 'react';
 import { CommonProps, useMergedRefs, useTheme } from '../utils';
-import '@itwin/itwinui-css/css/information-panel.css';
 
 export type InformationPanelProps = {
   /**

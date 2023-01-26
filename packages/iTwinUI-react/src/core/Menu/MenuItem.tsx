@@ -5,7 +5,6 @@
 import React from 'react';
 import cx from 'classnames';
 import { CommonProps, useTheme, Popover, useMergedRefs } from '../utils';
-import '@itwin/itwinui-css/css/menu.css';
 import SvgCaretRightSmall from '@itwin/itwinui-icons-react/cjs/icons/CaretRightSmall';
 import { Menu } from './Menu';
 

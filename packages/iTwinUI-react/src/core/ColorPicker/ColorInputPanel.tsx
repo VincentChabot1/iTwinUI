@@ -9,7 +9,6 @@ import { Input } from '../Input';
 import { ColorValue, CommonProps, InputContainer, useTheme } from '../utils';
 import { useColorPickerContext } from './ColorPickerContext';
 import SvgSwap from '@itwin/itwinui-icons-react/cjs/icons/Swap';
-import '@itwin/itwinui-css/css/color-picker.css';
 
 export type ColorInputPanelProps = {
   /**

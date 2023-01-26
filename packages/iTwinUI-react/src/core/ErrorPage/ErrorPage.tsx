@@ -15,7 +15,6 @@ import React from 'react';
 import { Button } from '../Buttons/Button';
 import { CommonProps, useTheme } from '../utils';
 import cx from 'classnames';
-import '@itwin/itwinui-css/css/non-ideal-state.css';
 
 export type ErrorPageType =
   | '300'

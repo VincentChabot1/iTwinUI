@@ -5,7 +5,6 @@
 import React from 'react';
 import cx from 'classnames';
 import { useTheme, CommonProps, useMergedRefs } from '../utils';
-import '@itwin/itwinui-css/css/file-upload.css';
 
 export type FileUploadProps = {
   /**

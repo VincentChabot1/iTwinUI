@@ -9,7 +9,6 @@ import Tippy, { TippyProps } from '@tippyjs/react';
 import type { Placement, Instance } from 'tippy.js';
 import { useMergedRefs } from '../hooks/useMergedRefs';
 export type PopoverInstance = Instance;
-import '@itwin/itwinui-css/css/popover.css';
 
 export type PopoverProps = {
   /**

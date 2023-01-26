@@ -3,7 +3,6 @@
  * See LICENSE.md in the project root for license terms and full copyright notice.
  *--------------------------------------------------------------------------------------------*/
 import React from 'react';
-import '@itwin/itwinui-css/css/color-picker.css';
 import {
   useTheme,
   CommonProps,

@@ -9,7 +9,6 @@ import React from 'react';
 import { IconButton } from '../Buttons';
 
 import { useTheme, CommonProps } from '../utils';
-import '@itwin/itwinui-css/css/header.css';
 import { DropdownMenu } from '../DropdownMenu';
 
 export type HeaderTranslations = {

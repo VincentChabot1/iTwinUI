@@ -5,7 +5,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { CommonProps, useTheme, getContainer, getDocument } from '../utils';
-import '@itwin/itwinui-css/css/dialog.css';
 import { Dialog, DialogMainProps } from '../Dialog';
 
 export type ModalProps = {

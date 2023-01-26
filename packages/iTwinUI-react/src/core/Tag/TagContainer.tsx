@@ -5,7 +5,6 @@
 import React from 'react';
 import cx from 'classnames';
 import { useTheme, CommonProps } from '../utils';
-import '@itwin/itwinui-css/css/tag.css';
 
 export type TagContainerProps = {
   /**

@@ -7,7 +7,6 @@ import Negative from '@itwin/itwinui-icons-react/cjs/icons/ImportantSmall';
 import cx from 'classnames';
 import React from 'react';
 import { CommonProps, useTheme } from '../../utils';
-import '@itwin/itwinui-css/css/progress-indicator.css';
 
 export type ProgressRadialProps = {
   /**

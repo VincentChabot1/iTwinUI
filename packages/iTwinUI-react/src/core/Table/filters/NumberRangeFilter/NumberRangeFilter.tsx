@@ -10,7 +10,6 @@ import {
 } from '../FilterButtonBar';
 import { BaseFilter } from '../BaseFilter';
 import { TableFilterProps } from '../types';
-import '@itwin/itwinui-css/css/table.css';
 import { LabeledInput } from '../../../LabeledInput';
 
 export type NumberRangeTranslation = {

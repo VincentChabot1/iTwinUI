@@ -11,7 +11,6 @@ import {
   isSoftBackground,
   SoftBackgrounds,
 } from '../utils';
-import '@itwin/itwinui-css/css/badge.css';
 
 /**
  * Helper function that returns one of the preset badge color values.

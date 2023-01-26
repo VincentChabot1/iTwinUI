@@ -13,7 +13,6 @@ import {
   useTheme,
 } from '../utils';
 import { CarouselDot } from './CarouselDot';
-import '@itwin/itwinui-css/css/carousel.css';
 
 type CarouselDotsListProps = {
   /** Number of total dots/slides in the carousel. Will be inferred from Carousel context or children. Otherwise, it is required to be passed. */

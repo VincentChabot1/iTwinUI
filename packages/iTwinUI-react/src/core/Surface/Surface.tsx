@@ -5,7 +5,6 @@
 import React from 'react';
 import cx from 'classnames';
 import { CommonProps, useTheme, getWindow } from '../utils';
-import '@itwin/itwinui-css/css/surface.css';
 
 /**
  * Helper function that returns one of the preset surface elevation values.

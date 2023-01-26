@@ -5,7 +5,6 @@
 import React from 'react';
 import cx from 'classnames';
 import { getRandomValue, useMergedRefs, useTheme } from '../utils';
-import '@itwin/itwinui-css/css/carousel.css';
 import { CarouselContext } from './CarouselContext';
 import { CarouselSlider } from './CarouselSlider';
 import { CarouselSlide } from './CarouselSlide';

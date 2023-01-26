@@ -12,7 +12,6 @@ import {
   useMergedRefs,
   useTheme,
 } from '../utils';
-import '@itwin/itwinui-css/css/dialog.css';
 import { DialogContextProps, useDialogContext } from './DialogContext';
 import { CSSTransition } from 'react-transition-group';
 import { DialogDragContext } from './DialogDragContext';

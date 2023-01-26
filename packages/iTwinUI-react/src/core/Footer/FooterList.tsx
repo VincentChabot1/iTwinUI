@@ -5,7 +5,6 @@
 import React from 'react';
 import { useTheme } from '../utils';
 import cx from 'classnames';
-import '@itwin/itwinui-css/css/footer.css';
 
 export type FooterListProps = React.ComponentPropsWithRef<'ul'>;
 

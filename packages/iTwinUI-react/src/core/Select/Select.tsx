@@ -13,7 +13,6 @@ import {
   useTheme,
   useOverflow,
 } from '../utils';
-import '@itwin/itwinui-css/css/inputs.css';
 import SvgCaretDownSmall from '@itwin/itwinui-icons-react/cjs/icons/CaretDownSmall';
 import SelectTag from './SelectTag';
 

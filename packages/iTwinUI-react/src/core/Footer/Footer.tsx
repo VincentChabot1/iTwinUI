@@ -5,7 +5,6 @@
 import React from 'react';
 import cx from 'classnames';
 import { useTheme, StylingProps } from '../utils';
-import '@itwin/itwinui-css/css/footer.css';
 import { FooterItem } from './FooterItem';
 import { FooterSeparator } from './FooterSeparator';
 import { FooterList } from './FooterList';
